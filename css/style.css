@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 33%;
+    border: solid white;
+    border-radius: 50px;
+}
+
+.nav-list {
+    width: 65%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 14px 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.rightNav {
+    width: 35%;
+    /* background-color: brown; */
+    text-align: right;
+    padding: 0 23px;
+
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    color: grey;
+    border: 2px solid whitesmoke;
+    border-radius: 9px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/personal\ website_bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+.firstHalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf {
+    width: 30%;
+}
+
+.secondHalf img {
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.box-main {
+    display: flex;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 43px;
+}
+
+.text-small {
+    font-size: 22px;
+}
+
+.btn{
+    padding: 5px 8px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    background: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.btn:hover{
+    padding: 5px 8px;
+    margin: 7px 0;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    background: none;
+    color: aliceblue;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-sm{
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+
+.btn-sm:hover{
+    padding: 5px 10px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    background: none;
+    color: aliceblue;
+    cursor: pointer;
+    color: white;
+}
+
+.paras{
+    padding: 0px 65px;
+}
+
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thumbnail img{
+    width: 250px;
+    border: solid black;
+    border-radius: 25px
+}
