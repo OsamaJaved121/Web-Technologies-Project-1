@@ -177,7 +177,8 @@
 }
 
 .thumbnail img{
-    width: 250px;
+    height: 300px;
+    width: 350px;
     border: solid black;
     border-radius: 25px
 }
