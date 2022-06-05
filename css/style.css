@@ -117,13 +117,18 @@
 
 .btn{
     padding: 5px 8px;
-    margin: 7px 0;
+    margin: 7px 8px;
     border: 2px solid white;
     border-radius: 8px;
     font-size: 18px;
     background: none;
     color: aliceblue;
     cursor: pointer;
+}
+
+.btn-dark{
+    color: black;
+    border: 2px solid black;
 }
 
 .btn:hover{
@@ -205,6 +210,29 @@
 .footer li a:hover {
     text-decoration: none;
     color: black;
+}
+
+.contact{
+    background-color: #f6f5f4;
+    height: 85vh;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.form{
+    max-width: 344px;
+    margin: auto;
+}
+
+.form-input{
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 10px;
 }
 
 @media only screen and (max-width:1140px){
